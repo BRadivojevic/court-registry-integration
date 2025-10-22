@@ -1,14 +1,13 @@
 # Court Registry Integration (Mock)
-Demonstrates a client abstraction + normalizer for a public registry (mocked for portfolio).
 
-## Run
-```bash
+Lightweight, mock client showing how to abstract and normalize company registry lookups.
+
+## Features
+- Simple client class returning demo data
+- Easy to adapt for real APIs
+- Env-driven base URL
+
+## Quick Start
 cp .env.example .env
 composer install
 php examples/lookup_company.php
-
-## C) Commit & push
-```bash
-git add .
-git commit -m "Initial: mock registry client + demo"
-git push -u origin main
